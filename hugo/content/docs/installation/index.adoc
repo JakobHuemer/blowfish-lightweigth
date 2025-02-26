@@ -1,0 +1,87 @@
+---
+title: Installation
+author: jakob
+description: "The installation process"
+draft: false
+date: 2025-02-25
+lastmod: 2025-02-25
+slug: installation
+tags: ["docs", "installation"]
+showDate: true
+showAuthor: true
+showReadingTime: true
+showTableOfContents: true
+weight: 2
+---
+
+:toc:
+:sectnums:
+
+
+## Install **HyperNova** 🚀
+
+Welcome to **HyperNova** – the application so powerful, so groundbreaking, that installing it will feel like unlocking the secrets of the universe. If you're ready to revolutionize your workflow, let's get started. Buckle up, because this ride is going to be **epic**.
+
+---
+
+## **System Requirements** 💻
+
+Before you even think about installing HyperNova, ensure your system is prepared to handle its sheer brilliance.
+
+### **Hardware that Won't Melt Under Pressure** 🔥
+• **4+ CPU Cores** – Because single-threaded performance is so last decade.
+• **16GB RAM (minimum!)** – Anything less, and your computer will weep.
+• **50GB SSD** – Lightning-fast storage for near-instant responses.
+
+### **OS Compatibility** 🎭
+HyperNova is designed for **all** operating systems because we believe in inclusivity (and domination):
+• **Linux** – Ubuntu 22.04 LTS+ (Because stability is key.)
+• **macOS** – Ventura 13+ (For the fearless innovators.)
+• **Windows** – 11 Pro with WSL2 (Because power deserves flexibility.)
+
+---
+
+## **Installation Steps** 🎉
+
+### **Step 1: Install Dependencies** ⚙️
+Before unleashing HyperNova, you need the essentials. Open your terminal and execute the sacred incantations:
+
+```sh
+sudo apt update && sudo apt install -y curl git
+```
+Or, for Mac:
+```sh
+brew install curl git
+```
+Or, for Windows:
+```powershell
+winget install Git.Git
+```
+
+### **Step 2: Clone the Source Code** 🧬
+The next step is to pull HyperNova straight from the digital ether. Run:
+```sh
+git clone https://github.com/hypernova/hypernova.git && cd hypernova
+```
+
+### **Step 3: Dockerize Your Life** 🐳
+HyperNova doesn't just run; it **soars** in a pristine, containerized environment. Fire up Docker:
+```sh
+docker compose up -d
+```
+Ensure you have **Docker Engine 24.0+** and **Docker Compose 2.5+**, or suffer the consequences of a world without HyperNova.
+
+### **Step 4: Access the Dashboard** 📊
+If you've followed the steps correctly (and haven't been struck by lightning from sheer excitement), open your browser and go to:
+```
+http://localhost:9000
+```
+Here, you’ll witness **the future** unfold.
+
+---
+
+## **Final Thoughts** ✨
+HyperNova isn’t just an application. It’s a **movement**. It’s the tool that will redefine the way you work, communicate, and breathe (probably). If you’ve made it this far, congratulations – you are now part of an elite group that dares to embrace the **extraordinary**.
+
+Now, go forth and conquer. 🚀
+
