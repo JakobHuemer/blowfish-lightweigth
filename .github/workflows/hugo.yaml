@@ -18,7 +18,7 @@ defaults:
   run:
     shell: bash
     # Set working directory to the hugo subfolder
-    working-directory: hugo
+    # working-directory: hugo
 
 jobs:
   build:
