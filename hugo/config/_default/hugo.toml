@@ -18,8 +18,8 @@ enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
-[markup]
-  defaultMarkdownHandler = "asciidocext"
+# [markup]
+#   defaultMarkdownHandler = "asciidocext"
 
 [security]
   enableInlineShortcodes = false

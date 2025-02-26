@@ -2,9 +2,7 @@
 title: Documentation
 description: "Simple, Yet powerful"
 tags: ["docs"]
-series_order: 1
 showDate: true
-showTableOfContents: true
 showAuthor: true
 authors:
   - "jakob"
@@ -13,7 +11,9 @@ authors:
   - "marlies"
 ---
 
-= Documentation
+= HEHEHE
+:toc:
+:sectnums:
 
 This section contains everything you need to know about how to run _Helpr_.
 
