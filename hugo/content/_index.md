@@ -69,3 +69,28 @@ lastmod: 2025-02-27
 - Simone Sperrer
 
 ---
+
+
+{{< mermaid >}}
+classDiagram
+Animal "1" <|-- Duck
+Animal <|-- Fish
+Animal <--o Zebra
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+class Duck{
++String beakColor
++swim()
++quack()
+}
+class Fish{
+-int sizeInFeet
+-canEat()
+}
+class Zebra{
++bool is_wild
++run()
+}
+{{< /mermaid >}}
