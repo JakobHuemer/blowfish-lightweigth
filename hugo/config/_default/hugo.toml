@@ -16,16 +16,19 @@ buildFuture = false
 
 enableEmoji = true
 
+autoSwitchAppearance = true
+
+[params]
+  plantuml = true
+
 # googleAnalytics = "G-XXXXXXXXX"
 
-# [markup]
-#   defaultMarkdownHandler = "asciidocext"
 
 [security]
   enableInlineShortcodes = false
 
   [security.exec]
-    allow = ['^(dart-)?sass(-embedded)?$', 'asciidoctor','^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
+    allow = ['asciidoctor', '^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
     osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$']
 
   [security.funcs]
@@ -35,6 +38,11 @@ enableEmoji = true
     methods = ['(?i)GET|POST']
     urls = ['.*']
 
+
+
+[services]
+  [services.disqus]
+    shortname = 'your-disqus-shortname'
 
 [pagination]
   pagerSize = 100

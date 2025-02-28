@@ -12,7 +12,7 @@ title = "Helpr"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = 'Copyright © 2025 Helpr, HTBLA Leonding. <br>Licensed under the <u>[GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html)</u>.'
 
 # [params.author]
 #   name = "Your name here"

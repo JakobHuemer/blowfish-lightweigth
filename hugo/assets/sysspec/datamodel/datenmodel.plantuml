@@ -1,0 +1,14 @@
+@startuml
+
+entity "task" as task {
+  # id : BIGSERIAL
+  * title : VARCHAR(100)
+  * description : VARCHAR(3000)
+  * status : INTEGER
+  * location : POINT
+  * estimated_effort : INTEGER
+  * created_at : TIMESTAMP <<default: now()>>
+}
+
+@enduml
+
