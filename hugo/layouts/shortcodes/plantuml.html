@@ -2,7 +2,7 @@
 readFile (print "assets/" (.Get "src")) }} {{ end }} {{ if eq $content "" }} {{
 $content = .Inner }} {{ end }}
 <img id="plantuml-{{ $id }}" />
-<script src="/js/rawdeflate.js"></script>
+<script src="{{ "/js/rawdeflate.js" | relURL }}"></script>
 <script>
   // Based on https://plantuml.com/code-javascript-asynchronous
 
@@ -59,12 +59,12 @@ $content = .Inner }} {{ end }}
     return "?";
   }
 
-  var deflater = window.SharedWorker && new SharedWorker("/js/rawdeflate.js");
+  var deflater = window.SharedWorker && new SharedWorker({{ "/js/rawdeflate.js" | relURL }});
   if (deflater) {
     deflater.port.addEventListener("message", done_deflating, false);
     deflater.port.start();
   } else if (window.Worker) {
-    deflater = new Worker("/js/rawdeflate.js");
+    deflater = new Worker({{ "/js/rawdeflate.js" | relURL }});
     deflater.onmessage = done_deflating;
   }
 

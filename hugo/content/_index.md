@@ -11,14 +11,6 @@ lastmod: 2025-02-27
 ### Helpr is a platform that allows users to find help in their area and assist others.
 
 
-
----
-
-<!-- Link to the latest release -->
-
-[Check out our latest release!](https://github.com/2425-3ahitm-itp/02-projekte-helpr/releases/tag/v2025.02.24-f9733c4)
-
-
 ---
 <!-- 
 ## How It Works
@@ -70,27 +62,3 @@ lastmod: 2025-02-27
 
 ---
 
-
-{{< mermaid >}}
-classDiagram
-Animal "1" <|-- Duck
-Animal <|-- Fish
-Animal <--o Zebra
-Animal : +int age
-Animal : +String gender
-Animal: +isMammal()
-Animal: +mate()
-class Duck{
-+String beakColor
-+swim()
-+quack()
-}
-class Fish{
--int sizeInFeet
--canEat()
-}
-class Zebra{
-+bool is_wild
-+run()
-}
-{{< /mermaid >}}
