@@ -16,6 +16,8 @@ buildFuture = false
 
 enableEmoji = true
 
+colorScheme = "autumn"
+
 autoSwitchAppearance = true
 
 [params]

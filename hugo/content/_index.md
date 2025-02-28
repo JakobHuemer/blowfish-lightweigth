@@ -5,10 +5,22 @@ date: 2025-02-25
 lastmod: 2025-02-27
 ---
 
-At Helpr, we believe everyone deserves access to reliable assistance when they need it most. Whether you're temporarily unable to complete daily tasks due to injury, illness, or other circumstances, or you're looking to use your skills to help others while earning extra income, our platform brings people together to create meaningful connections.
+[Latest Release](https://github.com/2425-3ahitm-itp/02-projekte-helpr/releases/tag/v2025.02.24-f9733c4) • hee
+
+
+### Helpr is a platform that allows users to find help in their area and assist others.
+
+
 
 ---
 
+<!-- Link to the latest release -->
+
+[Check out our latest release!](https://github.com/2425-3ahitm-itp/02-projekte-helpr/releases/tag/v2025.02.24-f9733c4)
+
+
+---
+<!-- 
 ## How It Works
 
 ### For Those Seeking Help
@@ -47,11 +59,11 @@ At Helpr, we believe everyone deserves access to reliable assistance when they n
 - **Build Your Reputation** through our rating system
 - **Secure Payment** for every completed task
 
----
+--- -->
 
 ## Team
 
-- Jakob Huemer-Fistelberger (Project Lead)
+- Jakob Huemer-Fistelberger **(Project Lead)**
 - Miriam Gnadlinger
 - Marlies Winklbauer
 - Simone Sperrer

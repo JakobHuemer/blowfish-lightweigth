@@ -10,8 +10,5 @@ tags: ["sysspec", "datamodel"]
 
 # Task
 
-{{< plantuml >}}
-@startuml
-class he
-@enduml
+{{< plantuml src="sysspec/datamodel/datamodel.plantuml" >}}
 {{< /plantuml >}}

@@ -12,6 +12,8 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
+colorScheme = "custom"
+
 replyByEmail = false
 
 mainSections = ["docs", "project"]
@@ -44,7 +46,9 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/card/card-purple-b54.jpg" # used in: hero, and card
+  # homepageImage = "img/card/card-purple-b54.jpg" # used in: hero, and card
+  # homepageImage = "img/card/card-darkcyan-b111.jpg" # used in: hero, and card
+  homepageImage = "img/card/card-dodgerblue-b46.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
