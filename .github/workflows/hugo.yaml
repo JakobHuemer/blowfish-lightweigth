@@ -2,7 +2,10 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
+    paths:
+      - hugo/**
   workflow_dispatch:
 
 permissions:
@@ -24,7 +27,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.145.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -34,8 +37,8 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
-      - name: Install Asciidoctor
-        run: sudo apt-get update && sudo apt-get install -y asciidoctor
+      # - name: Install Asciidoctor
+      #   run: sudo apt-get update && sudo apt-get install -y asciidoctor
 
       - name: Checkout
         uses: actions/checkout@v4
